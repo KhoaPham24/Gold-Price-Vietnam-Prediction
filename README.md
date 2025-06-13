@@ -14,12 +14,14 @@ Our objective is to validate the effectiveness of both standalone and hybrid mod
 
 ## Framework
 
-![image](https://github.com/user-attachments/assets/82d82349-53d7-4143-912c-3783ddd04ab3)
+![image](https://github.com/user-attachments/assets/2848f222-5f17-46a1-8c47-23335ebca5d7)
+
 
 *The following diagram illustrates the overall architecture of our forecasting framework, including **GARCH, LSTM, LSTM-GARCH** models*
 
 ## Results
-![image](https://github.com/user-attachments/assets/1fc070fa-1db0-4157-83f9-21ff14426d1c)
+![image](https://github.com/user-attachments/assets/005532ff-1d77-44ff-b22b-f05d681f04d8)
+
 *Garch Prediction*
 
 ![image](https://github.com/user-attachments/assets/6b80749a-21ce-4dfa-9d05-00dab6a4e415)
