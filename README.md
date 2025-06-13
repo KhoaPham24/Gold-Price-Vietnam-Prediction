@@ -20,17 +20,21 @@ Our objective is to validate the effectiveness of both standalone and hybrid mod
 *The following diagram illustrates the overall architecture of our forecasting framework, including **GARCH, LSTM, LSTM-GARCH** models*
 
 ## Results
+Based on the line charts below for the three models GARCH, LSTM, LSTM-GARCH, it is evident that the hybrid model provides predictions that closely follow the actual values, demonstrating significantly improved accuracy:
+
 ![image](https://github.com/user-attachments/assets/005532ff-1d77-44ff-b22b-f05d681f04d8)
 
 
 
-![image](https://github.com/user-attachments/assets/6b80749a-21ce-4dfa-9d05-00dab6a4e415)
+![image](https://github.com/user-attachments/assets/8175dfc7-4418-4f92-9a2f-827a6b41fb3d)
 
 
-![image](https://github.com/user-attachments/assets/c9a75d14-23d3-4566-83e2-173a60a54936)
+
+![image](https://github.com/user-attachments/assets/969b433a-ea34-46c6-a95d-1402394fb55d)
 
 
-The research project accomplished the development and evaluation of diverse models for gold price volatility forecasting, encompassing both individual models (GARCH, LSTM) and a hybrid model (LSTM-GARCH). These models were rigorously assessed using key evaluation metrics such as MSE and RMSE. Notably, the hybrid LSTM-GARCH model exhibited improved forecasting accuracy compared to traditional approaches, especially during periods of heightened market volatility. This outcome highlights the potential effectiveness of integrating statistical and deep learning methods to enhance the precision and reliability of volatility prediction in financial markets.
+
+The research project accomplished the development and evaluation of diverse models for gold price volatility forecasting, encompassing both individual models (GARCH, LSTM) and a hybrid model (LSTM-GARCH). These models were rigorously assessed using key evaluation metrics such as MAE, MAPE and RMSE. Notably, the hybrid LSTM-GARCH model exhibited improved forecasting accuracy compared to traditional approaches, especially during periods of heightened market volatility. This outcome highlights the potential effectiveness of integrating statistical and deep learning methods to enhance the precision and reliability of volatility prediction in financial markets.
 
 | Model       | MAE       | MAPE       | RMSE       |
 |-------------|-----------|------------|------------|
