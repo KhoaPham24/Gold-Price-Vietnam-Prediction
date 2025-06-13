@@ -13,7 +13,10 @@ Our objective is to validate the effectiveness of both standalone and hybrid mod
 ---
 
 ## Framework
-![image](https://github.com/user-attachments/assets/79ad2288-f3a0-4a7b-a902-9c850f03da41)
+<p align="center">
+  <img src="![image](https://github.com/user-attachments/assets/6fc49614-41eb-4991-8414-3eb73b11808e)
+" alt="Framework Diagram" width="600"/>
+</p>
 *<p align="center"><b>The proposed framework for Vietna Gold Price Prediction</b></p>*
 
 ## 📊 Results
