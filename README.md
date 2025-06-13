@@ -41,6 +41,9 @@ The research project accomplished the development and evaluation of diverse mode
 | LSTM        | 0.003177  | 0.254695   | 0.003981   |
 | **LSTM-GARCH** | **0.002177*** | **0.165544*** | **0.003226*** |
 
+
+![image](https://github.com/user-attachments/assets/1e1e3fb0-f5e2-4c98-90d1-1244d3aff7be)
+
 ## Requirements
 Ensure that you have **Python 3.8** or higher installed, then install the required Python packages: 
 ```bibtex
