@@ -29,15 +29,27 @@ The research project accomplished the development and evaluation of diverse mode
 | **LSTM-GARCH** | **0.002177*** | **0.165544*** | **0.003226*** |
 
 ## Requirements
+Ensure that you have **Python 3.8** or higher installed, then install the required Python packages: 
+```bibtex
+# Data manipulation and computation
+pandas==1.5.0
+numpy==1.25.0
 
-- Python ≥ 3.8  
-- numpy  
-- pandas  
-- keras  
-- tensorflow  
-- arch  
-- matplotlib  
-- scikit-learn
+# Plotting
+matplotlib==3.7.0
+
+# Machine Learning
+scikit-learn==1.2.0
+
+# Deep Learning Framework
+tensorflow==2.11.0  # This package includes Keras as well
+
+# For volatility models in finance
+arch==5.5.0
+
+# Hyperparameter tuning for Keras models
+keras_tuner==1.1.3
+
 
 ## Citation
 ```bibtex
