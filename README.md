@@ -14,7 +14,7 @@ Our objective is to validate the effectiveness of both standalone and hybrid mod
 
 ## Framework
 
-![image](https://github.com/user-attachments/assets/7dd8a1ad-a726-469e-bd19-12b6061edae8)
+![image](https://github.com/user-attachments/assets/82d82349-53d7-4143-912c-3783ddd04ab3)
 
 *The following diagram illustrates the overall architecture of our forecasting framework, including **GARCH, LSTM, LSTM-GARCH** models*
 
