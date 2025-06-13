@@ -20,20 +20,13 @@ Our objective is to validate the effectiveness of both standalone and hybrid mod
 
 ## 📊 Results
 
-| Model           | MAE      | RMSE     | 
-|----------------|----------|----------|
-| GARCH          | 0.000  | 0.0237   |
-| LSTM           | 0.00042  | 0.0205   |
-| **LSTM-GARCH** | **0.00031**  | **0.0176**   |
+
 Model ME MAE MAPE RMSE U
 GARCH 0.001091 0.005594 0.355746 0.008361 187.4112
 LSTM 0.001513 0.003177 0.254695 0.003981 89.23172
 LSTM-GARCH 0.00099* 0.002177* 0.165544* 0.003226* 72.30552*
 
-✅ **LSTM-GARCH** outperforms both standalone models by reducing RMSE by ~26%.
 
-- Strong performance during turbulent periods (e.g., 2021 COVID, 2024 inflation shock)
-- Better generalization observed in walk-forward testing
 
 ---
 
