@@ -18,7 +18,7 @@ Our objective is to validate the effectiveness of both standalone and hybrid mod
 
 *The following diagram illustrates the overall architecture of our forecasting framework, including **GARCH, LSTM, LSTM-GARCH** models*
 
-## 📊 Results
+## Results
 
 The research project accomplished the development and evaluation of diverse models for gold price volatility forecasting, encompassing both individual models (GARCH, LSTM) and a hybrid model (LSTM-GARCH). These models were rigorously assessed using key evaluation metrics such as MSE and RMSE. Notably, the hybrid LSTM-GARCH model exhibited improved forecasting accuracy compared to traditional approaches, especially during periods of heightened market volatility. This outcome highlights the potential effectiveness of integrating statistical and deep learning methods to enhance the precision and reliability of volatility prediction in financial markets.
 
@@ -28,7 +28,7 @@ The research project accomplished the development and evaluation of diverse mode
 | LSTM        | 0.003177  | 0.254695   | 0.003981   |
 | **LSTM-GARCH** | **0.002177*** | **0.165544*** | **0.003226*** |
 
-## 🔧 Requirements
+## Requirements
 
 - Python ≥ 3.8  
 - numpy  
@@ -39,21 +39,12 @@ The research project accomplished the development and evaluation of diverse mode
 - matplotlib  
 - scikit-learn
 
-Install all dependencies:
-```bash
-pip install -r requirements.txt
-🚀 Usage
-bash
-Copy
-Edit
-# Step 1: Run GARCH model to extract volatility
-python garch_model.py
-
-# Step 2: Train LSTM model
-python lstm_model.py
-
-# Step 3: Combine GARCH output with LSTM (Hybrid)
-python hybrid_model.py
-
-# Optional: Visualize results
-python plot_results.py
+## Citation
+@article{roszyk2024hybrid,
+  title={The Hybrid Forecast of S\&P 500 Volatility ensembled from VIX, GARCH and LSTM models},
+  author={Roszyk, Natalia and Ślepaczuk, Robert},
+  journal={arXiv preprint arXiv:2407.16780},
+  year={2024},
+  doi={10.48550/arXiv.2407.16780},
+  url={https://arxiv.org/abs/2407.16780}
+}
