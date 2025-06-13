@@ -40,6 +40,7 @@ The research project accomplished the development and evaluation of diverse mode
 - scikit-learn
 
 ## Citation
+'''bash
 @article{roszyk2024hybrid,
   title={The Hybrid Forecast of S\&P 500 Volatility ensembled from VIX, GARCH and LSTM models},
   author={Roszyk, Natalia and Ślepaczuk, Robert},
