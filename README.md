@@ -13,23 +13,8 @@ Our objective is to validate the effectiveness of both standalone and hybrid mod
 ---
 
 ## Framework
-![image](https://github.com/user-attachments/assets/f2279d38-095a-4344-bf0c-2fcecd4ecc28)
-
-### 1. **Data Preparation**
-- Daily gold price data in Vietnam
-- Log returns computed
-- Data scaled using `MinMaxScaler`
-
-### 2. **Models**
-- **GARCH(1,1)** using `arch` library to model volatility clusters.
-- **LSTM** using Keras to model sequences of past volatility.
-- **Hybrid LSTM-GARCH** where GARCH forecasts are fed as features into LSTM.
-
-### 3. **Validation**
-- Walk-forward (rolling) prediction
-- `EarlyStopping` and `Adam` optimizer for LSTM
-
----
+![image](https://github.com/user-attachments/assets/79ad2288-f3a0-4a7b-a902-9c850f03da41)
+*<p align="center"><b>The proposed framework for Vietna Gold Price Prediction</b></p>*
 
 ## 📊 Results
 
