@@ -48,7 +48,8 @@ tensorflow==2.11.0  # This package includes Keras as well
 arch==5.5.0
 
 # Hyperparameter tuning for Keras models
-keras_tuner==1.1.3```
+keras_tuner==1.1.3
+```
 
 ## Citation
 ```bibtex
