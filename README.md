@@ -1,2 +1,2 @@
 # Khoa-Pham-Gold-Price-Vietnam-Prediction
-GARCH(1,1): Captures time-varying volatility and conditional heteroskedasticity in returns.  LSTM (Long Short-Term Memory): Learns long-term dependencies and sequential patterns in volatility.  Hybrid LSTM-GARCH: Integrates GARCH forecasted volatility as input features for LSTM, enhancing adaptability to market shocks.
+This repository contains a time series forecasting project that aims to predict gold price volatility using a hybrid LSTM-GARCH model. The model combines deep learning (LSTM) and econometrics (GARCH) to improve forecasting accuracy. Data preprocessing, model training, evaluation, and results visualization are all included.
