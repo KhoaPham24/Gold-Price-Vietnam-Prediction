@@ -30,7 +30,6 @@ The research project accomplished the development and evaluation of diverse mode
 
 ## Requirements
 Ensure that you have **Python 3.8** or higher installed, then install the required Python packages: 
-```bibtex
 # Data manipulation and computation
 pandas==1.5.0
 numpy==1.25.0
@@ -49,6 +48,13 @@ arch==5.5.0
 
 # Hyperparameter tuning for Keras models
 keras_tuner==1.1.3
+numpy==1.25.0
+pandas==1.5.0
+matplotlib==3.7.0
+scikit-learn==1.2.0
+tensorflow==2.11.0
+arch==5.5.0
+keras-tuner==1.1.3
 
 
 ## Citation
