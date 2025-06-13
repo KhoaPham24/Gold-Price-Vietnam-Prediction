@@ -13,9 +13,12 @@ Our objective is to validate the effectiveness of both standalone and hybrid mod
 ---
 
 ## Framework
-![image](https://github.com/user-attachments/assets/d8386228-c9a4-487c-a1ad-81f22b3c5ad8)
 
-*<p align="center"><b>The proposed framework for Vietna Gold Price Prediction</b></p>*
+The following diagram illustrates the overall architecture of our forecasting framework, combining GARCH and LSTM models in a hybrid approach
+
+![image](https://github.com/user-attachments/assets/7dd8a1ad-a726-469e-bd19-12b6061edae8)
+
+
 
 ## 📊 Results
 
