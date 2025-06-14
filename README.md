@@ -18,6 +18,9 @@ Our objective is to validate the effectiveness of both standalone and hybrid mod
 
 *The following diagram illustrates the overall architecture of our forecasting framework, including **GARCH, LSTM, LSTM-GARCH** models*
 
+And before applying the GARCH model, it is essential to conduct appropriate **statistical hypothesis tests**. These conditions below **justify the use of GARCH** and enhance the reliability of its forecasts:
+![image](https://github.com/user-attachments/assets/5e84ad3b-c27d-477f-83dd-abf57f919763)
+
 ## Results
 Based on the line charts below for the three models GARCH, LSTM, LSTM-GARCH, it is evident that the hybrid model provides predictions that closely follow the actual values, demonstrating significantly improved accuracy:
 
